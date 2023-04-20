@@ -1,0 +1,96 @@
+body {
+    overflow: hidden;
+}
+
+ul {
+    list-style: none;
+    margin-top: 5%;
+    padding: 0px;
+    display: flex;
+}
+
+li {
+    background-color: aqua;
+    width: 100%;
+    height: 80px;
+}
+
+/* first row */
+.logo .logo_firstRow {
+    gap: 35%;
+}
+
+.logo .logo_firstRow li {
+    background: rgb(109, 47, 112);
+    background: linear-gradient(
+        0deg,
+        rgba(109, 47, 112, 1) 0%,
+        rgba(115, 35, 101, 1) 100%
+    );
+}
+
+/* second row */
+.logo .logo_secondRow {
+    gap: 7.5em;
+}
+
+.logo .logo_secondRow li {
+    background: rgb(94, 69, 133);
+    background: linear-gradient(
+        0deg,
+        rgba(94, 69, 133, 1) 0%,
+        rgba(102, 59, 123, 1) 100%
+    );
+}
+
+.logo .logo_secondRow .logo_secondRow-firstElement {
+    width: 60%;
+}
+
+.logo .logo_secondRow .logo_secondRow-secondElemet {
+    width: 33%;
+}
+
+/* third row */
+.logo .logo_thirdRow {
+    gap: 7.5em;
+}
+
+.logo .logo_thirdRow li {
+    background: rgb(72, 84, 154);
+    background: linear-gradient(
+        0deg,
+        rgba(72, 84, 154, 1) 0%,
+        rgba(84, 77, 144, 1) 100%
+    );
+}
+
+.logo .logo_thirdRow .logo_thirdRow-firstElement {
+    width: 33%;
+}
+
+.logo .logo_thirdRow .logo_thirdRow-secondElemet {
+    width: 59%;
+}
+
+/* fourth row */
+.logo .logo_fourthRow {
+    gap: 7.5em;
+}
+
+.logo .logo_fourthRow li {
+    background: rgb(47, 94, 171);
+    background: linear-gradient(
+        0deg,
+        rgba(47, 94, 171, 1) 0%,
+        rgba(60, 89, 163, 1) 100%
+    );
+}
+
+.logo .logo_fourthRow .logo_fourthRow-firstElement {
+    width: 33%;
+}
+
+.logo .logo_fourthRow .logo_fourthRow-secondElemet {
+    width: 59%;
+}
